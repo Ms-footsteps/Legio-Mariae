@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    min-height: 85vh;
+}
+
 header {
     background: #085e9c;
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -37,6 +41,7 @@ nav ul li a {
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+    
 }
 
 nav ul li a:hover {
@@ -77,16 +82,17 @@ nav ul li a:hover {
 }
 
 .text{
-    border: 2px solid red;
+    border: 1px solid rgb(255, 0, 0);
     padding: 40px;
     text-align: justify;
     text-indent: 25px;
-    width: 1000px;
-    height: 500px;
+    width: 50vw;
+    min-height: 80vh;
     /* background-color: white; */
     transform: scale(1.05);
     box-shadow: 0 0 20px;
     background-color: rgba(224, 224, 224, 0.6);
+    border-radius: 10px;
 }
 
 .logo {
